@@ -143,5 +143,7 @@ for i in range(n):
         codonSequence += random.choice(choiceList)
     out.write(codonSequence + '\n')
     out.write('-------------------------- \n')
+    print(codonSequence)
+    print('--------------------------')
 out.close()
 print('Successfully saved codon sequences at ' + str(outfile))
