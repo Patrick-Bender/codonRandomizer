@@ -23,7 +23,7 @@ Arguments
 
 [2] : String or text file location
     The amino acid sequence to be turned into a DNA sequence.
-    If the amino acid sequence is in a text file
+    The sequence can be either typed out in the terminal or input through a text file.
 
 ---------------------------
 
