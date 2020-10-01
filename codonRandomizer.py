@@ -124,6 +124,9 @@ for acid in codonWeights:
     if codonWeights[acid] == []:
         codonWeights[acid] = [1]*len(codonDict[acid])
 
+#Change any lowercase letters to upper case letters
+aaSequence = aaSequence.upper()
+        
 #Verify that input amino acid sequence is viable
 for acid in aaSequence:
     if acid == '\n':
