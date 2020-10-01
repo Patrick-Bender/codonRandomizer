@@ -61,7 +61,7 @@ codonDict = {
         'W': ['TGG'],                                       #Tryptophan (Trp)
         'Y': ['TAT', 'TAC'],                                #Tyrosine (Tyr)
         'V': ['GTT', 'GTC', 'GTA', 'GTC'],                  #Valine (Val)
-        's': ['TAA', 'TGA', 'TAG']                          #Stop
+        '*': ['TAA', 'TGA', 'TAG']                          #Stop
         }
 codonWeights = {
         #Empty list means giving even probabilities across all possible codons
@@ -89,7 +89,7 @@ codonWeights = {
         'W': [],
         'Y': [],
         'V': [1, 0, 1, 0],
-        's': []
+        '*': []
         }
 
 
