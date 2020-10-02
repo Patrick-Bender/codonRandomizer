@@ -60,7 +60,7 @@ codonDict = {
         'T': ['ACT', 'ACC', 'ACA', 'ACG'],                  #Threonine (Thr)
         'W': ['TGG'],                                       #Tryptophan (Trp)
         'Y': ['TAT', 'TAC'],                                #Tyrosine (Tyr)
-        'V': ['GTT', 'GTC', 'GTA', 'GTC'],                  #Valine (Val)
+        'V': ['GTT', 'GTC', 'GTA', 'GTG'],                  #Valine (Val)
         '*': ['TAA', 'TGA', 'TAG']                          #Stop
         }
 codonWeights = {
